@@ -191,7 +191,7 @@ function queryBot(text) {
                           insertChat("remote",data.result.fulfillment.speech);
                          console.log(data.result.fulfillment.messages)
                          //insertChat("remote","hi1");
-                         insertChat("remote",`<input type='button' value='Yes' id="yes1" onclick='yes1(this)' /><input type='button' value='No' onclick='no1(this)' />`);
+                         //insertChat("remote",`<input type='button' value='Yes' id="yes1" onclick='yes1(this)' /><input type='button' value='No' onclick='no1(this)' />`);
                     }
                 },
                 error: function() {
